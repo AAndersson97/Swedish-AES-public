@@ -7,7 +7,7 @@ from natsort import natsorted
 import cache_manager
 from evaluate import calculate_kappa
 from internaltypes import Feature, Grade
-from predict import train_in_svm, train_in_ldac
+from assessment import train_in_svm, train_in_ldac
 
 essay_collection: List[Dict[Feature, int]]
 grade_dict: Dict[str, Grade]
